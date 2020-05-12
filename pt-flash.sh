@@ -9,8 +9,7 @@ TARGET[0]="PTDEV"
 #
 # Check that the dependencies for flashing exist and are setup correctly.
 function check {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/check.sh
 }
 
 # device()
@@ -19,24 +18,21 @@ function check {
 #
 # @param $1 The current device type.
 function device {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/device.sh $1
 }
 
 # dump()
 #
 # Dump the content of memory.
 function dump {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/dump.sh
 }
 
 # erase()
 #
 # Erase the target device memory..
 function erase {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/erase.sh
 }
 
 # flash()
@@ -46,8 +42,7 @@ function erase {
 # @param $1 The target memory location.
 # @param $2 The binary image to flash.
 function flash {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/flash.sh $1 $2
 }
 
 # display_help()
@@ -87,16 +82,14 @@ function display_help {
 #
 # @param $1 Toggle the state of the flash protection.
 function protect {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/protect.sh $1
 }
 
 # setup()
 #
 # Install the required software for flashing from this device.
 function setup {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/setup.sh
 }
 
 # target()
@@ -105,8 +98,7 @@ function setup {
 #
 # @param $1 The target device to be flashed.
 function target {
-  # TODO: Implement this.
-  echo "[!!] Feature not yet supported"
+  bash src/target.sh $1
 }
 
 # main()
