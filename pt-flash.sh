@@ -54,7 +54,7 @@ function flash {
 #
 # Display help for this script.
 function display_help {
-  echo "./flash.sh <CMD> [PARAMs]"
+  echo "./pt-flash.sh <CMD> [PARAMs]"
   echo ""
   echo "  CoMmanDs"
   echo ""
