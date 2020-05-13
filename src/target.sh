@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "TODO: Set flash target."
+source src/variables.sh
+load
+PT_TARGET=$1
+save

@@ -1,3 +1,6 @@
 #!/bin/bash
 
-echo "TODO: Set device."
+source src/variables.sh
+load
+PT_DEVIC=$1
+save
